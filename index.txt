@@ -1,0 +1,224 @@
+//---Html--//
+
+<body>
+    <section>
+        <div class="card text-white">
+            <img src="img/banner.jpg" class="card-img img-fluid" alt="banner">
+            <div class="card-img-overlay container">
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navigation-wrap">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo.png" alt="" width="96px" height="54px"> Mehedi Manav</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about-me">About Me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link">Tutorials</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          My Projects
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Graphics Design</a></li>
+                                            <li><a class="dropdown-item" href="#">3D Projects</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Downloads
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Wallpaper Download</a></li>
+                                            <li><a class="dropdown-item" href="#">Practice Project Download</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          More
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Youtube</a></li>
+                                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                                            <li><a class="dropdown-item" href="#">Leave a message</a></li>
+                                            <li><a class="dropdown-item" href="#">Ask for CV</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card-text banner-text">
+                            <strong class="hi">Hi,</strong>
+                            <p class="intro">I'm Mehedi Manav</p>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsam provident a harum quibusdam expedita esse ea aperiam dolorum debitis beatae in est, nihil accusamus eveniet? Modi architecto possimus ipsam.</p>
+                            </div>
+                            <!-- <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" href="#">Facebook</a>
+                                </li>.
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" href="#">Instagram</a>
+                                </li>.
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" href="#">LinkedIn</a>
+                                </li>.
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" href="#">Twitter</a>
+                                </li>.
+                                <li class="nav-item">
+                                    <a class="nav-link link-light" href="#">Youtube</a>
+                                </li>
+                            </ul> -->
+                            <a class="scroll-down" href="#contacts"><i class="fa fa-chevron-down"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-me">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center mt-3">About Me</h3>
+                <div class="col-4">
+                    <img src="img/photo_2021-06-23_21-09-49.jpg" alt="" height="300px">
+                </div>
+                <div class="col-8">
+                    <h4>General Overview</h4>
+                    <p>I write, I design, I teach and sometimes I penetrate. No, not really. I'm a cyber security enthusiast and I like penetration testing. In Jun 2021, I founded IT Ishkool which is in my opinion Bangladesh’s first completely free online
+                        IT learning platform. I'm working with some of the most talented mentors out there to make sure that the students of IT Ishkool get the best guidance possible.</p>
+                    <p>I also teach Linux Fundamentals. Other than that, I taught some courses regarding Cyber Security. In leisure time, I like to write. I usually write about social issues. Though I'm not involved into any kind of politics, but I have
+                        written about some political issues now and then. You can read my articles here.</p>
+                    <p>Currently I'm on my way of graduation. I'm studying BSc. in Computer Science and Engineering from Bangladesh Army International University of Science and Technology (BAIUST).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <h1>Have a question or wanna discuss something ?</h1>
+                        <h6>Let's talk</h6>
+                        <div class="col-3">
+                            <span><i class="fa fa-envelope"></i> Email:</span><br>
+                            <span><i class="fa fa-telegram"></i> Telegram:</span><br>
+                            <span><i class="fa fa-mobile-phone"></i> Mobile:</span><br>
+                            <span><i class="fa fa-phone"></i> Phone:</span><br>
+                        </div>
+                        <div class="col-9">
+                            <a href="mail.com">ceo@itishkool.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1>Who am I ?</h1>
+                    <p>A guy who just happens love graphics design, cyber security, teaching and writing.</p>
+                    <p>A Muslim who strictly stands against Feminism, LGBTQ & Islamophobia. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+//--css--//
+.card {
+    border-radius: unset;
+}
+
+.card-img {
+    border-radius: unset;
+    position: relative;
+    height: 100vh;
+}
+
+.card-text {
+    margin-top: 250px;
+}
+
+.card-text .hi {
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.card-text .intro {
+    font-size: 42pt;
+    font-weight: 900;
+}
+
+.navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+#contacts {
+    background-color: rgb(49, 52, 77);
+    color: #fff;
+}
+
+.scroll-down {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    line-height: 100px;
+    margin-top: 200px;
+}
+
+.scroll-down i {
+    position: absolute;
+    display: block;
+    height: 60px;
+    width: 60px;
+    font-weight: unset;
+    line-height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.scroll-down:hover {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    animation: pulse 1s ease-out infinite;
+}
+
+@keyframes pulse {
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

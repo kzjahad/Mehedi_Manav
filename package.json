@@ -20,5 +20,12 @@
     "homepage": "https://github.com/kzjahad/Mehedi_Manav#readme",
     "devDependencies": {
         "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "bootstrap": "5.1",
+        "bootstrap-social": "^5.1.1",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.14.3"
     }
 }
